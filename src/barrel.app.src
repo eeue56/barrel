@@ -1,0 +1,12 @@
+{application, barrel,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { barrel_app, []}},
+  {env, []}
+ ]}.
